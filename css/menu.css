@@ -1,0 +1,42 @@
+* {
+	margin:0;
+	padding: 0;
+}
+
+#nav{
+	margin:30px;
+	text-align: center;
+}
+
+.items{
+  width: 150px;
+  position: relative;
+}
+
+li{
+	list-style: none;
+	float: left;
+}
+
+a{
+	text-decoration: none;
+	font-size: 14px;
+	font-family: arial;
+	color:#fff;
+	background: #444;
+	display: block;
+	margin: 3px;
+	padding: 12px;
+	border-radius: 5px;
+}
+
+a:hover{
+	background: #ccc;
+	color:black;
+}
+
+li>ul{
+	display: none;
+	position: absolute;
+	top: 60px; 
+}
